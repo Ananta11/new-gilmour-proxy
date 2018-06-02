@@ -1,13 +1,13 @@
 package main
 
 import (
-	"./proxy"
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"proxy"
 )
 
 func createNodeHandler(w http.ResponseWriter, r *http.Request) {
